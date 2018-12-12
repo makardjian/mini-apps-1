@@ -7,11 +7,11 @@
 <body>
 	<div id="main">
 		<h1>CSV Report Generator</h1>
-		<form action="./../server.js">
-			<input type="text" name="input-field">
-			<button class="submit-button" onClick="">Submit Form</button>
+		<form class="form-submit" action="/" method="post">
+			<textarea id='text-area' name="message" rows="10" cols="30"></textarea>
+			<button id="submit">Submit Form</button>
 		</form>
 	</div>
-
+	<script src="./app.js"></script>
 </body>
 </html>
